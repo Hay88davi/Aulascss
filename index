@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA CSS</title>
+    <style>
+       .principal
+        {
+          background-color: rgb(66, 66, 66);
+          color:rgb(245, 245, 245);
+          width: 800px;
+          height: 500px;
+          border: 5px;
+          border-color: rgb(212, 208, 216);
+          border-style: solid;
+          border-radius: 50px;
+          position: absolute;
+          left: 88px;
+          display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
+        .roxo
+        {
+            width: 200px; /*largura*/
+            height: 200px; /*altura*/
+            background-color: rgb(58, 66, 102);
+           
+            font-size: 18px;
+            /* OS CODIGOS ABAIXO
+            SERVEM PARA ALINHAR ITENS DENTRO DE UMA DIV
+            */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            border-radius: 100px;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="principal">
+       <div class="roxo">
+       um
+    </div>
+
+    <div class="roxo">
+        dois
+
+    </div>
+   </div> 
+</body>
+</html>
